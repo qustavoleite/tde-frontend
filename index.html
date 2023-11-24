@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Lexend:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/logo.png">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/responsive.css">
+    <title>Responsively App - A web developers browser</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <section class="logo-menu">
+                <figure>
+                    <img src="./assets/logo.png" alt="Logo">
+                </figure>
+                <nav>
+                    <ul>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#testemonials" >Testemonials</a></li>
+                        <li><a href="#sponsor">Sponsor</a></li>
+                        <li><a href="#" class="none">Blog</a></li>
+                        <li><a href="https://discord.com/invite/tFG4E7bgkr" target="_blank" class="none">Join Discord</a></li>
+                    </ul>
+                </nav>
+            </section>
+
+            <section class="group">
+                <div class="stars">
+                    <i class="ph ph-star"></i>
+                    <span>21.090 Stars</span>
+                </div>
+                <button class="btn">Download</button>
+
+                <i id="myBtn" class="ph-bold ph-list"></i>
+
+                <div id="myModal" class="modal">
+                    <div class="modal-content">
+                        <span class="close"><i class="ph-bold ph-x"></i></span>
+                        <ul>
+                            <li><a href="#features" class="menu-link">Features</a></li>
+                            <li><a href="#testemonials" class="menu-link">Testemonials</a></li>
+                            <li><a href="#sponsor" class="menu-link">Sponsor</a></li>
+                            <li><a href="#" class="menu-link">Blog</a></li>
+                            <li><a href="https://discord.com/invite/tFG4E7bgkr" target="_blank" class="menu-link">Join Discord</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </header>
+
+        <section class="hero">
+            <div class="content">
+                <h1>Master the Art of Crafting Responsive Web Apps like <span>a Pro!</span></h1>
+                <p>A must-have DevTool for all web developers that will make your job easier. And it's free and open source too!🎉</p>
+                <button class="second-btn">Download Now</button>
+            </div>
+        </section>
+
+        <section class="sponsors" id="sponsor">
+            <p>Supported by these amazing sponsors</p>
+            <div class="group-img">
+                <img src="./assets/github.png" alt="Logo do Github">
+                <img src="./assets/bairesdev.png" alt="Logo da Baires Dev">
+                <img src="./assets/browserstack.svg" alt="Logo da Browser Stack">
+                <img src="./assets/see-your-logo.png" alt="See your logo here">
+            </div>
+        </section>
+    </div>
+
+    <section class="tools" id="features">
+        <div class="tools-wrap">
+
+            <div class="text-content">
+                <h2>Elevate your web development experience with the comprehensive toolset!</h2>
+                <p>Well everything you need to be make pixel perfect responsive websites with ease.</p>
+            </div>
+
+            <div class="group-tools">
+                <div class="group-cards">
+                    <article class="card transparent">
+                        <h3>All devices at once</h3>
+                        <p>See all devices at once, side-by-side. No more fidding around with the devtools resizer. it's all there, at a glance.</p>
+                    </article>
+                    <article class="card">
+                        <h3>Mirrored Interactions</h3>
+                        <p>Any click, scroll or navigation that you perform in one device will be replicated to all devices in real-time.</p>
+                    </article>
+                    <article class="card">
+                        <h3>Quick Context Switching</h3>
+                        <p>Save your favorite device combinations as Preview Suits and quickly switch between them when you're testing.</p>
+                    </article>
+                    <article class="card">
+                        <h3>Extensive Device Profiles</h3>
+                        <p>Responsively comes with a large collection of device profiles out of the box. You can also add your own custom devices.</p>
+                    </article>
+                </div>
+                <img src="./assets/content.png" alt="Ilustração">
+            </div>
+        </div>
+    </section>
+
+    <section class="utilities">
+        <div class="utilities-text">
+            <h2>Not to miss the Nifty Utilities</h2>
+            <p>Embrace the power of our Versatile Utility Collection to make your life easier.</p>
+        </div>
+
+        <div class="group-utilities">
+            <article class="utilities-cards highlight">
+                <i class="ph ph-binoculars green"></i>
+                <span class="green">One inspector for all devices</span>
+                <h4>Stay on top of your design with the Unified Inspector.</h4>
+                <p>The Unified Inspector allows you to inspect elements across all devices at once. Just press <span>Cmd/Ctrl</span> + <span>I</span> to activate it and hover over any element to see its details.
+                </p>
+            </article>
+
+            <article class="utilities-cards">
+                <i class="ph ph-camera"></i>
+                <span>One Click Screenshots</span>
+                <h4 class="def">Take full page screenshots of all devices at once with a single click.</h4>
+                <p>You can also take screenshots of individual devices by clicking on the camera icon in the device toolbar. And quick screenshot of the viewport too.</p>
+            </article>
+
+            <article class="utilities-cards">
+                <i class="ph ph-folder"></i>
+                <span>Basic Browser features</span>
+                <h4 class="def">In addition to the above, you get all the basic browser features.</h4>
+                <p>You get all the basic browser features like cookie management, local storage, session storage, bookmarks, etc. You can also use the devtools as in any browser.</p>
+            </article>
+        </div>
+        <img src="./assets/preview.png" alt="Preview">
+    </section>
+
+    <section class="start">
+        <h1>Get started today</h1>
+        <p>Time to kick off your journey towards Web Development Mastery.</p>
+        <button class="btn second-btn">Download Now</button>
+    </section>
+
+    <section class="testemonials" id="testemonials">
+        <div class="testemonials-text">
+            <h2>Loved by developers worldwide.</h2>
+            <p>Here's what some of our users have to say about Responsively.</p>
+        </div>
+
+        <div>
+            <img src="./assets/tweets/tweet-1.png" alt="Tweet of a testemonial">
+            <img src="./assets/tweets/tweet-2.png" alt="Tweet of a testemonial">
+            <img src="./assets/tweets/tweet-3.png" alt="Tweet of a testemonial">
+            <img src="./assets/tweets/tweet-4.png" alt="Tweet of a testemonial">
+            <img src="./assets/tweets/tweet-5.png" alt="Tweet of a testemonial">
+            <img src="./assets/tweets/tweet-6.png" alt="Tweet of a testemonial">
+            <img src="./assets/tweets/tweet-7.png" alt="Tweet of a testemonial">
+            <img src="./assets/tweets/tweet-7.png" alt="Tweet of a testemonial">
+        </div>
+    </section>
+
+    <section>
+        <div class="asked-wrapper">
+            <div class="questions-text">
+                <h2>Frequently asked questions</h2>
+                <p>If you can't find what you're looking for, please open an issue on our GitHub.</p>
+            </div>
+
+            <section class="group-questions">
+                <article class="questions">
+                    <div>
+                        <h4>Does Responsively App render the page with the same engine as the browser?</h4>
+                        <p>No, Responsively App is built on top of Electron and uses Chromium as its rendering engine.
+                        </p>
+                    </div>
+
+                    <div>
+                        <h4>Does Responsively App accurately render as real devices?</h4>
+                        <p>Responsively App tries to render pages as close as possible to real devices but it may not be 100% accurate.</p>
+                    </div>
+
+                    <div>
+                        <h4>Is Responsively App a good replacement for real devices?</h4>
+                        <p>No, Responsively App is not a replacement for real devices. It is a tool that renders pages in viewport sizes of various devices, but it does not emulate their behavior.</p>
+                    </div>
+                </article>
+
+                <article class="questions">
+                    <div>
+                        <h4>Is Responsively App free?</h4>
+                        <p>Yes, Responsively App is free to use and open source. You can find the source code on GitHub.</p>
+                    </div>
+
+                    <div>
+                        <h4>How do I report a bug?</h4>
+                        <p>Please open an issue on our GitHub repo and we'll look into it.</p>
+                    </div>
+
+                    <div>
+                        <h4>How do I request a feature?</h4>
+                        <p>Please open an issue on our GitHub repo explainng your need and we'll look into it.</p>
+                    </div>
+                </article>
+
+                <article class="questions">
+                    <div>
+                        <h4>How can I support Responsively App?</h4>
+                        <p>You can support in a lot of ways and we have details of in our Sponsorship page.</p>
+                    </div>
+
+                    <div>
+                        <h4>How can I contribute to Responsively App?</h4>
+                        <p>Please checkout our GitHub repo for issues that needs help and give them a try.</p>
+                    </div>
+                </article>
+            </section>
+        </div>
+    </section>
+
+    <section class="menu-down">
+        <figure>
+            <img src="./assets/logo.png" alt="Logo">
+        </figure>
+        <ul>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#testemonials">Testemonials</a></li>
+            <li><a href="#sponsor">Sponsor</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="https://discord.com/invite/tFG4E7bgkr" target="_blank">Join Discord</a></li>
+        </ul>
+    </section>
+    <footer>
+        <p>Copyright © 2023 Responsively App. All rights reserved and subject to the Privacy Policy and Terms and Conditions.</p>
+        <div class="icons">
+            <a href="https://twitter.com/ResponsivelyApp" target="_blank"><i class="ph-fill ph-twitter-logo"></i></a>
+            <a href="https://github.com/responsively-org/responsively-app" target="_blank"><i class="ph-fill ph-github-logo"></i></a>
+            <a href="https://discord.com/invite/tFG4E7bgkr" target="_blank"><i class="ph-fill ph-discord-logo"></i> </a>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <script src="./app.js"></script>
+</body>
+
+</html>

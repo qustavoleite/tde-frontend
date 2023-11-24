@@ -1,0 +1,301 @@
+@media (max-width: 1200px) {
+    .group-tools img {
+        width: 510px;
+        height: 430px;
+    }
+}
+
+@media (max-width: 1006px) {
+    .tools .tools-wrap {
+        gap: 60px;
+    }
+
+    .group-tools {
+        justify-content: center;
+        gap: 60px;
+    }
+
+    .group-tools img {
+        width: 450px;
+        height: 400px;
+    }
+}
+
+@media (max-width: 940px) {
+    footer {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 920px) {
+    .utilities img {
+        width: 650px;
+    }
+
+    ul li a {
+        font-size: 13px;
+    }
+
+    .none {
+        display: none;
+    }
+
+    .btn {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    header .stars {
+        gap: 2px;
+        padding: 5px 1px;
+    }
+
+    .stars span {
+        font-size: 13px;
+    }
+
+    .hero h1 {
+        font-size: 65px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .text-content h2 {
+        font-size: 40px;
+    }
+
+    .text-content p {
+        font-size: 17px;
+    }
+
+    .transparent {
+        border-radius: 10px;
+    }
+
+    .utilities-text {
+        text-align: center;
+    }
+
+    .group-utilities {
+        flex-direction: column;
+        padding: 0 40px;
+        max-width: 600px;
+        gap: 50px;
+    }
+
+    .questions-text {
+        text-align: center;
+    }
+}
+
+@media (max-width: 740px) {
+    nav ul {
+        display: none;
+
+    }
+
+    header .stars {
+        display: none;
+    }
+
+    .ph-list {
+        display: flex;
+    }
+
+    .btn {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .modal-content {
+        width: 90%;
+    }
+
+    .questions-text h2 {
+        font-size: 35px;
+    }
+
+    .questions-text p {
+        font-size: 17px;
+    }
+}
+
+@media(max-width: 670px) {
+    .utilities img {
+        width: 550px;
+    }
+
+    .hero h1 {
+        font-size: 50px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .group-img img {
+        width: 170px;
+    }
+
+    .utilities-text h2 {
+        font-size: 35px;
+    }
+
+    .text-content h2 {
+        font-size: 33px;
+    }
+
+    .start h1 {
+        font-size: 35px;
+    }
+
+    .start p {
+        font-size: 16px;
+    }
+
+    .testemonials-text {
+        text-align: center;
+    }
+
+    .testemonials-text h2 {
+        font-size: 35px;
+    }
+
+    .testemonials-text p {
+        font-size: 17px;
+    }
+
+    .testemonials div {
+        padding: 20px 0;
+    }
+
+    .group-questions {
+        flex-wrap: wrap;
+    }
+
+    .questions div {
+        gap: 10px;
+    }
+
+    .questions div h4 {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 570px) {
+    .utilities img {
+        width: 490px;
+    }
+}
+
+@media (max-width: 520px) {
+    .utilities img {
+        display: none;
+    }
+
+    .testemonials div img {
+        width: 390px;
+    }
+
+    .hero h1 {
+        font-size: 42px;
+    }
+
+    .utilities-text h2 {
+        font-size: 30px;
+    }
+
+    .utilities-text p {
+        font-size: 15px;
+    }
+
+    .text-content h2 {
+        font-size: 30px;
+    }
+
+    .start h1 {
+        font-size: 30px;
+    }
+
+    .start p {
+        font-size: 16px;
+    }
+
+    .testemonials-text h2 {
+        font-size: 30px;
+    }
+
+    .testemonials-text p {
+        font-size: 16px;
+    }
+
+    .questions-text h2 {
+        font-size: 30px;
+    }
+
+    .questions-text p {
+        font-size: 16px;
+    }
+
+    .questions div h4 {
+        font-size: 16px;
+    }
+
+    .questions div p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 490px) {
+    .group-tools img {
+        width: 400px;
+        height: 330px;
+    }
+
+    .text-content h2 {
+        font-size: 25px;
+    }
+
+    .text-content p {
+        font-size: 15px;
+    }
+
+    .card {
+        width: 390px;
+    }
+
+    .card h3 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 490px) {
+    .group-tools img {
+        display: none;
+    }
+
+    .card {
+        width: 350px;
+    }
+
+    .testemonials div img {
+        width: 350px;
+    }
+
+    .hero h1 {
+        font-size: 30px;
+    }
+
+    .hero p {
+        font-size: 15px;
+    }
+
+    .sponsors {
+        padding: 10px 20px;
+    }
+}
